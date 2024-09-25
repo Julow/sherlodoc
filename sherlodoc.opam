@@ -47,6 +47,6 @@ build: [
 ]
 dev-repo: "git+https://github.com/art-w/sherlodoc.git"
 pin-depends: [
-  [ "odoc.dev"        "git+https://github.com/ocaml/odoc#442c7dd2e7870d920968710dd8cfd1d28016b9cc"]
-  [ "odoc-parser.dev" "git+https://github.com/ocaml/odoc#442c7dd2e7870d920968710dd8cfd1d28016b9cc"]
+  [ "odoc.dev"        "git+https://github.com/ocaml/odoc#master"]
+  [ "odoc-parser.dev" "git+https://github.com/ocaml/odoc#master"]
 ]

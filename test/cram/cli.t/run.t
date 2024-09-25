@@ -3,7 +3,7 @@
   $ odoc compile -I . page.mld
   $ odoc link -I . main.odoc
   $ odoc link -I . page-page.odoc
-  $ odoc compile-index -o index.odoc-index --include-rec .
+  $ odoc compile-index -o index.odoc-index -L '':.
   $ export SHERLODOC_DB=db.bin
   $ export SHERLODOC_FORMAT=marshal
   $ sherlodoc index  index.odoc-index

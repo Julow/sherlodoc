@@ -150,7 +150,7 @@ let rec categorize id =
     | `ExtensionDecl _ | `Module _ ) as x ->
     let parent = Identifier.label_parent { id with iv = x } in
     categorize (parent :> Identifier.Any.t)
-  | `AssetFile _ | `SourceDir _ | `SourceLocationMod _ | `SourceLocation _ | `SourcePage _
+  | `AssetFile _ | `SourceLocationMod _ | `SourceLocation _ | `SourcePage _
   | `SourceLocationInternal _ ->
     `ignore (* unclear what to do with those *)
 
