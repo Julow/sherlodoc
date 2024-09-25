@@ -1,4 +1,4 @@
 pin-depends: [
-  [ "odoc.dev"        "git+https://github.com/ocaml/odoc#master"]
-  [ "odoc-parser.dev" "git+https://github.com/ocaml/odoc#master"]
+  [ "odoc.dev"        "git+https://github.com/ocaml/odoc"]
+  [ "odoc-parser.dev" "git+https://github.com/ocaml/odoc"]
 ]
